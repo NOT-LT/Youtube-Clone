@@ -38,11 +38,17 @@ width: 150px;
   flex-shrink: 0;
   margin-right: 20px;
 }
-
-.youtube-icon {
-  width: 90px;
-  height: 20px;
+@media (min-width: 0px) and (max-width: 509px){
+  .left-section {
+    width: 50px;
+  }
+  .right-section {
+    width: 0px;
+    flex-shrink: 1;
+    margin: 0px;
+  }
 }
+
 
 
 .hamburger-menu {
