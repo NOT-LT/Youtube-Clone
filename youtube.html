@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles/youtube-body.css">
+    <link rel="stylesheet" href="styles/youtube-header.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <img src="assets/hamburger-menu.svg" class="hamburger-menu">
+        <img src="assets/youtube-logo.svg" class="youtube-icon">
+      </div>
+      <div class="middle-section">
+        <input type="text" placeholder="Search" class="search-bar"/>
+        <button class="search-btn">
+          <img src="assets/search.svg" width="24px" class="search-icon">
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-icon">
+          <img src="assets/voice-search-icon.svg" width="23px">
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-div">
+          <img src="assets/upload.svg" class="right-side-icons">
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="youtube-apps-div">
+          <img src="assets/youtube-apps.svg" class="right-side-icons">
+          <div class="tooltip">Youtube Apps</div>
+        </div>
+        <div class="notification-div">
+          <p class="notification-number">3</p>
+          <img src="assets/notifications.svg" class="right-side-icons">
+          <div class="tooltip">Notification</div>
+        </div>
+        <div class="my-channel-div">
+          <img src="assets/my-channel.jpeg" class="my-channel-icon">
+        </div>
+      </div>
+    </header>
+
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="assets/home.svg" class="sidebar-icon">
+        <p>Home</p>
+      </div>
+      <div class="sidebar-link">
+        <img src="assets/explore.svg" class="sidebar-icon">
+        <p>Explore</p>
+      </div>
+      <div class="sidebar-link">
+        <img src="assets/subscriptions.svg" class="sidebar-icon">
+        <p>Subscriptions</p>
+      </div>
+      <div class="sidebar-link">
+        <img src="assets/originals.svg" class="sidebar-icon">
+        <p>Originals</p>
+      </div>
+      <div class="sidebar-link">
+        <img src="assets/youtube-music.svg" class="sidebar-icon">
+        <p>Youtube Music</p>
+      </div>
+      <div class="sidebar-link">
+        <img src="assets/library.svg" class="sidebar-icon">
+        <p>Library</p>
+      </div>
+
+    </nav>
+
+    <div class="vids-grid">
+
+      <div class="vid-container">
+        <div class="vid-preview">
+          <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY" target="_blank">
+            <img src="assets/thumbnail-1.webp" class="thumbnail">
+            <p class="video-time">14:20</p> <!--Placing an absolute element within a relative elemt caused to be relative to it, and sticked but scrollable -->
+          </a>
+        </div>
+  
+        <div class="vid-info">  
+  
+          <div class="profile-pic-div">
+            <img class="profile-pic" src="assets/profile-1.jpeg">
+          </div>
+  
+          <div class="vid-details">
+            <p class="title">
+              Talking Tech and AI with Google 
+              CEO Sundar Pichai!
+            </p>
+            <p class="vid-author">
+              Marqus Brownlee &#x2713
+            </p>
+            <p class="vid-stats">
+              3.4M views &#183 6 months ago
+            </p>
+          </div>
+          
+         </div>
+
+      </div>
+
+      
+    
+      <div class="vid-container">
+        <div class="vid-preview">
+          <p class="video-time">8:22</p>
+          <img src="assets/thumbnail-2.webp" class="thumbnail">
+        </div>
+  
+        <div class="vid-info">  
+  
+          <div class="profile-pic-div">
+            <img class="profile-pic" src="assets/profile-2.jpeg">
+          </div>
+  
+          <div class="vid-details">
+            <p class="title">
+              Try Not To Laugh Challenge #9
+            </p>
+            <p class="vid-author">
+              Markiplier &#x2713
+            </p>
+            <p class="vid-stats">
+              19M views &#183 4 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="vid-container">
+        <div class="vid-preview">
+          <p class="video-time">9:13</p>
+          <img src="assets/thumbnail-3.webp" class="thumbnail">
+        </div>
+  
+        <div class="vid-info">  
+  
+          <div class="profile-pic-div">
+            <img class="profile-pic" src="assets/profile-3.jpeg">
+          </div>
+  
+          <div class="vid-details">
+            <p class="title">
+              Crazy Tik Toks Taken Moments Before DISASTER
+            </p>
+            <p class="vid-author">
+              SSSniperWolf
+            </p>
+            <p class="vid-stats">
+              12M views &#183 1 year ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="vid-container">
+        <div class="vid-preview">
+          <p class="video-time">22:09</p>
+          <img src="assets/thumbnail-4.webp" class="thumbnail">
+        </div>
+  
+        <div class="vid-info">  
+  
+          <div class="profile-pic-div">
+            <img class="profile-pic" src="assets/profile-4.jpeg">
+          </div>
+  
+          <div class="vid-details">
+            <p class="title">
+              The simpliest math pronlem no can solve - Collatz
+            </p>
+            <p class="vid-author">
+              vERITASIUM &#x2713
+            </p>
+            <p class="vid-stats">
+              18M views &#183 4 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="vid-container">
+        <div class="vid-preview">
+          <p class="video-time">11:17</p>
+          <img src="assets/thumbnail-5.webp" class="thumbnail">
+        </div>
+  
+        <div class="vid-info">  
+  
+          <div class="profile-pic-div">
+            <img class="profile-pic" src="assets/profile-5.jpeg">
+          </div>
+  
+          <div class="vid-details">
+            <p class="title">
+              Try Not To Laugh Challenge #9
+            </p>
+            <p class="vid-author">
+              CS DOJO
+            </p>
+            <p class="vid-stats">
+              519k views &#183 5 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="vid-container">
+        <div class="vid-preview">
+          <p class="video-time">11:59</p>
+          <img src="assets/thumbnail-6.webp" class="thumbnail">
+        </div>
+  
+        <div class="vid-info">  
+  
+          <div class="profile-pic-div">
+            <img class="profile-pic" src="assets/profile-6.jpeg">
+          </div>
+  
+          <div class="vid-details">
+            <p class="title">
+              Anything You Can Fit In The Circle I'll Pay For
+            </p>
+            <p class="vid-author">
+              MrBeast &#x2713
+            </p>
+            <p class="vid-stats">
+              141M views &#183 1 year ago
+            </p>
+          </div>
+        </div>
+      </div>
+    
+    </div>
+      
+
+      
+
+  
+  </body>
+
+</html>
