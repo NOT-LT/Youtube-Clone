@@ -14,6 +14,7 @@ This is project is a UI simulation to the Youtube Home View. It aims to replicat
 - Tooltip
 - CSS position
 - Transisitions
+- Responsive design
 
 ### Technologies
 | Technology | Version |
